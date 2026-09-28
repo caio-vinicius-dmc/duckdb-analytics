@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dados gerados localmente. Nenhum deles vai para o repositório: o comando
+# "gerar" recria tudo em segundos.
+dados/*
+!dados/.gitkeep
+saida/
+
+.vscode/
+.idea/
+
+# Variáveis de ambiente da máquina. Nunca versionado -- é o arquivo onde
+# senha de banco acaba parando sem ninguém perceber.
+.env

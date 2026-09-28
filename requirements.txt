@@ -1,0 +1,5 @@
+duckdb==1.5.5
+polars==1.44.2
+pandas==3.0.6
+pyarrow==25.0.1
+rich==14.3.0
